@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Condiment&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Condiment&family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    font-family: var(--font2);
+    font-size: 5em;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 100;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 2em;
+    margin: 75px 0px 100px 15px;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+#img01 {
+        background-image: url('imagens/background001.jpg');
+}
+
+#img02 {
+        background-image: url('imagens/background002.jpg');
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.2);
+}
+
+.texto-imagem01 {
+    position: relative;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.texto-imagem01 > p {
+    position: absolute;
+    color: white;
+    padding: 25px;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.183);
+    border-radius: 8px;
+}
+
+.texto-imagem02 {
+    position: relative;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-imagem02 > p {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 8px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+    padding-top: 40px;
+    font-family: var(--font2);
+}
+
+footer > p > a {
+    color: rgb(12, 69, 243);
+    text-decoration: none;
+}
